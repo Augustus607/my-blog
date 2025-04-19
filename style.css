@@ -1,0 +1,100 @@
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+    line-height: 1.7;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  /* Header */
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0077cc;
+    margin: 0 10px;
+    font-weight: 500;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+  
+  h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 10px;
+  }
+  
+  ul li {
+    margin-bottom: 8px;
+  }
+  
+  a {
+    color: #0077cc;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Call-to-action section */
+  .cta {
+    background-color: #eef6fb;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .cta a {
+    font-weight: bold;
+    color: #005fa3;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #666;
+    border-top: 1px solid #ddd;
+    margin-top: 40px;
+  }
